@@ -42,9 +42,9 @@
                             <ul>
                                 <li class="flex-wr-s-s t1-s-2 cl-13 p-b-9">
                                     <span class="size-w-4">
-                                        Komp. Ruko Batamas Blok A No. 1
-                                        Pasir Putih - Batam Centre
-                                        021 80821 403 / 80821 333
+                                        Komp. Ruko Batamas Blok A No. 1<br/>
+                                        Pasir Putih - Batam Centre<br/>
+                                        (+62) 812 7561 9998
                                     </span>
                                 </li>
                             </ul>
@@ -59,8 +59,8 @@
                             <ul>
                                 <li class="flex-wr-s-s t1-s-2 cl-13 p-b-9">
                                     <span class="size-w-4">
-                                        Brooklyn Premium Office no. 1-3
-                                        Jl. Sutera Boulevard Kav. 22-26
+                                        Brooklyn Premium Office no. 1-3<br/>
+                                        Jl. Sutera Boulevard Kav. 22-26<br/>
                                         Alam Sutera - Tangerang
                                     </span>
                                 </li>
@@ -76,8 +76,8 @@
                             <ul>
                                 <li class="flex-wr-s-s t1-s-2 cl-13 p-b-9">
                                     <span class="size-w-4">
-                                       (+62) 300 666 88<br/>
-                                       (+62) 853-4528-9988<br/>
+                                       (+62) 812 7561 9998<br/>
+                                       (+62) 853 4528 998<br/>
                                         info@trinitiland.com<br/>
                                         www.trinitiland.com
                                     </span>

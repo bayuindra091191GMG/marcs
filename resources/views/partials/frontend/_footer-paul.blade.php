@@ -9,7 +9,9 @@
                 <div class="col-sm-12 col-md-7 col-lg-7 p-b-20 p-l-0 txt-left mobile-center mobile-p-t-0">
                     <img src="{{ asset('images/paulmarc/marc-boulevard-logo.png') }}" height="20" style="margin-top: -5px;">
                 </div>
-
+                <div class="pt-3" style="border-bottom: 1px solid white; width:100%;"></div>
+            </div>
+            <div class="row pt-5">
                 <div class="col-sm-8 col-md-5 col-lg-3 p-b-20">
                     <div class="size-h-1 flex-s-e p-b-6 m-b-18">
                         <a href="https://trinitiland.com" class="mx-auto" target="_blank">
@@ -26,7 +28,7 @@
 
                 <div class="col-sm-8 col-md-5 col-lg-3 p-b-20">
                     <div class="size-h-1 flex-s-e m-b-18">
-                        <h4 class="t1-m-3 text-uppercase cl-0">
+                        <h4 class="t1-m-3  cl-0">
                             <span class="custom-font-2" style="font-size: 20px;">Marketing Office</span>
                         </h4>
                     </div>
@@ -34,9 +36,9 @@
                     <ul>
                         <li class="flex-wr-s-s t1-s-2 cl-13 p-b-9">
                             <span class="size-w-4">
-                                Komp. Ruko Batamas Blok A No. 1
-                                Pasir Putih - Batam Centre
-                                021 80821 403 / 80821 333
+                                Komp. Ruko Batamas Blok A No. 1<br/>
+                                Pasir Putih - Batam Centre<br/>
+                                (+62) 812 7561 9998
                             </span>
                         </li>
                     </ul>
@@ -44,7 +46,7 @@
 
                 <div class="col-sm-8 col-md-5 col-lg-3 p-b-20">
                     <div class="size-h-1 flex-s-e m-b-18">
-                        <h4 class="t1-m-3 text-uppercase cl-0">
+                        <h4 class="t1-m-3  cl-0">
                             <span class="custom-font-2" style="font-size: 20px;">Triniti Land HQ</span>
                         </h4>
                     </div>
@@ -52,8 +54,8 @@
                     <ul>
                         <li class="flex-wr-s-s t1-s-2 cl-13 p-b-9">
                             <span class="size-w-4">
-                                Brooklyn Premium Office no. 1-3
-                                Jl. Sutera Boulevard Kav. 22-26
+                                Brooklyn Premium Office no. 1-3<br/>
+                                Jl. Sutera Boulevard Kav. 22-26<br/>
                                 Alam Sutera - Tangerang
                             </span>
                         </li>
@@ -62,7 +64,7 @@
 
                 <div class="col-sm-8 col-md-5 col-lg-3 p-b-20">
                     <div class="size-h-1 flex-s-e m-b-18">
-                        <h4 class="t1-m-3 text-uppercase cl-0">
+                        <h4 class="t1-m-3  cl-0">
                             <span class="custom-font-2" style="font-size: 20px;">Contact</span>
                         </h4>
                     </div>
@@ -70,8 +72,8 @@
                     <ul>
                         <li class="flex-wr-s-s t1-s-2 cl-13 p-b-9">
                             <span class="size-w-4">
-                               (+62) 300 666 88<br/>
-                               (+62) 853-4528-9988<br/>
+                               (+62) 812 7561 9998<br/>
+                               (+62) 853 4528 9988<br/>
                                 info@trinitiland.com<br/>
                                 www.trinitiland.com
                             </span>

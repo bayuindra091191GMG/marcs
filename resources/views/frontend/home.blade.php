@@ -459,9 +459,7 @@
                             background-size: cover;
                             height: 480px;">
                             <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                                <span class="t1-m-1 text-white custom-font-2">Glenn Marc</span>
-                                <hr class="w-25 mx-auto border-white"/>
-                                <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
+                                <img src="{{ asset('images/marc/home/glenn the hive components - contact-04.png') }}" width="160" class="m-auto">
                             </div>
                         </div>
                     </a>
@@ -543,9 +541,7 @@
                                     background-size: cover;
                                     height: 300px;">
                                     <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
-                                        <span class="t1-s-1 text-white custom-font-2">Glenn Marc</span>
-                                        <hr class="w-25 mx-auto border-white"/>
-                                        <span class="text-white custom-font-1" style="font-size: 10px;">#COMINGSOON</span>
+                                        <img src="{{ asset('images/marc/home/glenn the hive components - contact-04.png') }}" width="100" class="m-auto">
                                     </div>
                                 </div>
                             </a>

@@ -84,215 +84,242 @@
     <section class="bg-0 p-t-40 p-b-0">
         <div class="container">
             <!-- Title section -->
-            <div class="row">
+            <div class="row pb-3">
                 <div class="flex-col-c-c p-b-0 col-md-12 col-sm-12 col-xs-12 col-lg-12">
                     <h3 class="t1-s-2 cl-3 txt-center m-b-0 custom-font-2" style="font-weight: 500;">Condovilla</h3>
                     <h1 class="t1-m-4 cl-3 txt-center m-b-0 custom-font-2" style="font-size: 40px;">THE PLANS</h1>
                 </div>
             </div>
+            <div class="row" style="border-bottom: 1px solid black;width:100%;"></div>
         </div>
     </section>
 
-    <section class="bg-0 p-t-0 p-b-10">
+    <section>
         <div class="container">
-            <!-- Title section -->
             <div class="row">
-                <div class="p-b-50 col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                    <!-- Tab02 -->
-                    <div class="p-t-20 text-center">
-                        <!-- Nav tabs -->
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li class="nav-item col-md-4 p-0 tab-nav">
-                                <a class="nav-link active text-dark" data-toggle="tab" href="#siteplan" role="tab">SITE PLAN</a>
-                            </li>
+                <div class="col-12">
+                    <div class="prive-slider">
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-01.jpg') }}" /></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-02.jpg') }}" /></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-03.jpg') }}" /></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-04.jpg') }}" /></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-05.jpg') }}" /></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-06.jpg') }}" /></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-07.jpg') }}"/></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-08.jpg') }}" /></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-09.jpg') }}" /></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-10.jpg') }}" /></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-11.jpg') }}" /></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-12.jpg') }}"/></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-13.jpg') }}" /></div>
 
-                            <li class="nav-item col-md-4 p-0 tab-nav">
-                                <a class="nav-link text-dark" data-toggle="tab" href="#floorplan" role="tab" id="tabFloor">FLOOR PLAN</a>
-                            </li>
-
-                            <li class="nav-item col-md-4 p-0 tab-nav">
-                                <a class="nav-link text-dark" data-toggle="tab" href="#unitplan" role="tab" id="tabUnit">UNIT PLAN</a>
-                            </li>
-                        </ul>
-
-                        <!-- Tab panes -->
-                        <div class="tab-content" style="border-bottom: none; border-left: none; border-right: none;">
-                            <!-- - -->
-                            <div class="tab-pane fade show active" id="siteplan" role="tabpanel">
-                                <div class="p-rl-30 p-t-25 p-b-0 d-none d-md-block">
-                                    <div class="container">
-                                        <!-- Title section -->
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
-                                                <img src="{{ asset('images/paulmarc/projects/Paul & Prive - Site Plan (Tower A)-04.jpg') }}" height="100%" width="200%" alt="header"/>
-                                            </div>
-                                            <div class="flex-col-c-c p-b-50 col-md-6 col-lg-6 col-xs-12">
-                                                {{-- <h3 class="t1-s-2 cl-3 txt-center m-b-11 p-t-20">
-                                                    Paul & Prive <br/>
-                                                    <b style="font-size: 40px;">SITE PLAN</b>
-                                                </h3>
-                                                <h5 class="t1-s-2 cl-3 txt-center m-b-11 p-t-50">
-                                                    Total Land Area <b>14,000 sqm</b>
-                                                </h5>
-                                                <div class="row" style="font-size: 10px; width: 59%;">
-                                                    <div class="col-md-6 tab-left">
-                                                        Total Unit <b>239 units</b>
-                                                    </div>
-                                                    <div class="col-md-6 tab-right">
-                                                        Total Parking <b>240 lots</b>
-                                                    </div>
-                                                </div> --}}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="p-t-25 p-b-0 d-block d-md-none m-b-120">
-                                    <div class="container">
-                                        <!-- Title section -->
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
-                                                <img src="{{ asset('images/paulmarc/siteplan/PAUL MARC MOBILE UNIT-01-final.jpg') }}" height="120%" width="100%" alt="header"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- - -->
-                            <div class="tab-pane" id="floorplan" role="tabpanel">
-                                <div class="row d-none d-md-block">
-                                    <div class="col-12 pt-4 m-t-20">
-                                        <div class="floor-slider">
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower A)-01.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower A)-02.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower A)-03.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower B)-01.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower B)-02.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower B)-03.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower C)-01.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower C)-02.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower C)-03.jpg') }}" height="400"/></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                
-
-                                <!-- Mobile -->
-                                <div class="row d-block d-md-none mx-2">
-                                    <div class="col-12 pt-2">
-                                        <div class="floor-slider">
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-02.jpg') }}" style= "height:900px;"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-03.jpg') }}" style= "height:900px;"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-04.jpg') }}" style= "height:900px;"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-05.jpg') }}" style= "height:900px;"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-06.jpg') }}" style= "height:900px;"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-07.jpg') }}" style= "height:900px;"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-08.jpg') }}" style= "height:900px;"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-09.jpg') }}" style= "height:900px;"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-10.jpg') }}" style= "height:900px;"/></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- - -->
-                            <div class="tab-pane" id="unitplan" role="tabpanel">
-                                <div class="row d-none d-md-block mx-2">
-                                    <div class="col-12 pt-4">
-                                        <div class="unit-slider mx-3">
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-01.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-02.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-03.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-04.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-05.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-06.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-07.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-08.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-09.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-10.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-11.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-12.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-01.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-02.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-03.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-04.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-05.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-06.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-07.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-08.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-09.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-10.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-11.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-01.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-02.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-03.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-04.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-05.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-06.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-07.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-08.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-09.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-10.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-11.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-12.jpg') }}" height="400"/></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Mobile -->
-                                <div class="row d-block d-md-none mx-2">
-                                    <div class="col-12 pt-4">
-                                        <div class="unit-slider">
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-11.jpg') }}" style="height:100%;"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-12.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-13.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-14.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-15.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-16.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-17.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-18.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-19.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-20.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-21.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-22.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-23.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-24.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-25.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-26.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-27.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-28.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-29.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-30.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-31.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-32.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-33.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-34.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-35.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-36.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-37.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-38.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-39.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-40.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-41.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-42.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-43.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-44.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-45.jpg') }}"/></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
+            <div class="row pt-3" style="border-bottom: 1px solid black;width:100%;"></div>
         </div>
     </section>
 
+{{--    <section class="bg-0 p-t-0 p-b-10">--}}
+{{--        <div class="container">--}}
+{{--            <!-- Title section -->--}}
+{{--            <div class="row">--}}
+{{--                <div class="p-b-50 col-md-12 col-sm-12 col-xs-12 col-lg-12">--}}
+{{--                    <!-- Tab02 -->--}}
+{{--                    <div class="p-t-20 text-center">--}}
+{{--                        <!-- Nav tabs -->--}}
+{{--                        <ul class="nav nav-tabs" role="tablist">--}}
+{{--                            <li class="nav-item col-md-4 p-0 tab-nav">--}}
+{{--                                <a class="nav-link active text-dark" data-toggle="tab" href="#siteplan" role="tab">SITE PLAN</a>--}}
+{{--                            </li>--}}
 
-    <section class="bg-0 p-t-0 p-b-10">
+{{--                            <li class="nav-item col-md-4 p-0 tab-nav">--}}
+{{--                                <a class="nav-link text-dark" data-toggle="tab" href="#floorplan" role="tab" id="tabFloor">FLOOR PLAN</a>--}}
+{{--                            </li>--}}
+
+{{--                            <li class="nav-item col-md-4 p-0 tab-nav">--}}
+{{--                                <a class="nav-link text-dark" data-toggle="tab" href="#unitplan" role="tab" id="tabUnit">UNIT PLAN</a>--}}
+{{--                            </li>--}}
+{{--                        </ul>--}}
+
+{{--                        <!-- Tab panes -->--}}
+{{--                        <div class="tab-content" style="border-bottom: none; border-left: none; border-right: none;">--}}
+{{--                            <!-- - -->--}}
+{{--                            <div class="tab-pane fade show active" id="siteplan" role="tabpanel">--}}
+{{--                                <div class="p-rl-30 p-t-25 p-b-0 d-none d-md-block">--}}
+{{--                                    <div class="container">--}}
+{{--                                        <!-- Title section -->--}}
+{{--                                        <div class="row">--}}
+{{--                                            <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">--}}
+{{--                                                <img src="{{ asset('images/paulmarc/projects/Paul & Prive - Site Plan (Tower A)-04.jpg') }}" height="100%" width="200%" alt="header"/>--}}
+{{--                                            </div>--}}
+{{--                                            <div class="flex-col-c-c p-b-50 col-md-6 col-lg-6 col-xs-12">--}}
+{{--                                                --}}{{-- <h3 class="t1-s-2 cl-3 txt-center m-b-11 p-t-20">--}}
+{{--                                                    Paul & Prive <br/>--}}
+{{--                                                    <b style="font-size: 40px;">SITE PLAN</b>--}}
+{{--                                                </h3>--}}
+{{--                                                <h5 class="t1-s-2 cl-3 txt-center m-b-11 p-t-50">--}}
+{{--                                                    Total Land Area <b>14,000 sqm</b>--}}
+{{--                                                </h5>--}}
+{{--                                                <div class="row" style="font-size: 10px; width: 59%;">--}}
+{{--                                                    <div class="col-md-6 tab-left">--}}
+{{--                                                        Total Unit <b>239 units</b>--}}
+{{--                                                    </div>--}}
+{{--                                                    <div class="col-md-6 tab-right">--}}
+{{--                                                        Total Parking <b>240 lots</b>--}}
+{{--                                                    </div>--}}
+{{--                                                </div> --}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+
+{{--                                <div class="p-t-25 p-b-0 d-block d-md-none m-b-120">--}}
+{{--                                    <div class="container">--}}
+{{--                                        <!-- Title section -->--}}
+{{--                                        <div class="row">--}}
+{{--                                            <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">--}}
+{{--                                                <img src="{{ asset('images/paulmarc/siteplan/PAUL MARC MOBILE UNIT-01-final.jpg') }}" height="120%" width="100%" alt="header"/>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+
+{{--                            <!-- - -->--}}
+{{--                            <div class="tab-pane" id="floorplan" role="tabpanel">--}}
+{{--                                <div class="row d-none d-md-block">--}}
+{{--                                    <div class="col-12 pt-4 m-t-20">--}}
+{{--                                        <div class="floor-slider">--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower A)-01.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower A)-02.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower A)-03.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower B)-01.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower B)-02.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower B)-03.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower C)-01.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower C)-02.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower C)-03.jpg') }}" height="400"/></div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+
+
+
+{{--                                <!-- Mobile -->--}}
+{{--                                <div class="row d-block d-md-none mx-2">--}}
+{{--                                    <div class="col-12 pt-2">--}}
+{{--                                        <div class="floor-slider">--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-02.jpg') }}" style= "height:900px;"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-03.jpg') }}" style= "height:900px;"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-04.jpg') }}" style= "height:900px;"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-05.jpg') }}" style= "height:900px;"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-06.jpg') }}" style= "height:900px;"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-07.jpg') }}" style= "height:900px;"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-08.jpg') }}" style= "height:900px;"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-09.jpg') }}" style= "height:900px;"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-10.jpg') }}" style= "height:900px;"/></div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+
+{{--                            <!-- - -->--}}
+{{--                            <div class="tab-pane" id="unitplan" role="tabpanel">--}}
+{{--                                <div class="row d-none d-md-block mx-2">--}}
+{{--                                    <div class="col-12 pt-4">--}}
+{{--                                        <div class="unit-slider mx-3">--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-01.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-02.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-03.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-04.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-05.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-06.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-07.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-08.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-09.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-10.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-11.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-12.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-01.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-02.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-03.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-04.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-05.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-06.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-07.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-08.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-09.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-10.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-11.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-01.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-02.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-03.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-04.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-05.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-06.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-07.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-08.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-09.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-10.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-11.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-12.jpg') }}" height="400"/></div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+
+{{--                                <!-- Mobile -->--}}
+{{--                                <div class="row d-block d-md-none mx-2">--}}
+{{--                                    <div class="col-12 pt-4">--}}
+{{--                                        <div class="unit-slider">--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-11.jpg') }}" style="height:100%;"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-12.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-13.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-14.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-15.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-16.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-17.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-18.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-19.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-20.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-21.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-22.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-23.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-24.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-25.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-26.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-27.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-28.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-29.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-30.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-31.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-32.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-33.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-34.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-35.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-36.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-37.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-38.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-39.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-40.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-41.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-42.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-43.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-44.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-45.jpg') }}"/></div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
+
+
+    <section class="bg-0 pt-5 p-b-10">
         <div class="container">
             <!-- Title section -->
             <div class="row">
@@ -372,7 +399,7 @@
         </div>
     </section>
 
-    <section class="bg-0 p-t-20 p-b-30">
+    <section class="bg-0 p-t-20 p-b-100">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-12 col-md-3 col-lg-3 mb-5 mb-md-0">
@@ -426,24 +453,24 @@
         </div>
     </section>
 
-    <section class="bg-0 p-t-0 p-b-10">
-        <div class="container">
-            <div class="flex-col-c-c">
-                <div class="size-a-2 bg-3" style="width: 100%; height: 1px;"></div>
-            </div>
-        </div>
-    </section>
+{{--    <section class="bg-0 p-t-0 p-b-10">--}}
+{{--        <div class="container">--}}
+{{--            <div class="flex-col-c-c">--}}
+{{--                <div class="size-a-2 bg-3" style="width: 100%; height: 1px;"></div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
-    @include('partials.frontend._back-marc')
+{{--    @include('partials.frontend._back-marc')--}}
 @endsection
 
 @section('styles')
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
 
-    
+
     <style type="text/css">
-        
+
         .slick-prev:before {
 
             color: black;
@@ -455,7 +482,7 @@
             color: black;
 
             }
-        
+
         .carousel-control-prev-icon{
             z-index: 99999;
         }
@@ -486,7 +513,7 @@
 
         overflow-y: visible;
 
-} /* bootstrap hack end */```
+} /* bootstrap hack end */
         @media (max-width: 576px) {
             .header-top-img{
                 min-height: 150px;
@@ -627,16 +654,16 @@
 
 @section('scripts')
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    
+
     <script>
-        $(".floor-slider").slick({
+        $(".prive-slider").slick({
             dots: true,
             infinite: true,
             speed: 300,
             slidesToShow: 1,
             adaptiveHeight: true,
             arrows: true
-            
+
         });
 
         $('#tabFloor').on('show.bs.tab', function (e) {

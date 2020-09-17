@@ -90,102 +90,116 @@
                     <h1 class="t1-m-4 cl-3 txt-center m-b-11 custom-font-2">THE PLANS</h1>
                 </div>
             </div>
+            <div class="row" style="border-bottom: 1px solid black;width:100%;"></div>
         </div>
     </section>
-
-    <section class="bg-0 p-t-0 p-b-10">
+    <section>
         <div class="container">
-            <!-- Title section -->
             <div class="row">
-                <div class="p-b-50 col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                    <!-- Tab02 -->
-                    <div class=" p-t-20 text-center">
-                        <!-- Nav tabs -->
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li class="nav-item col-md-4 p-0 tab-nav">
-                                <a class="nav-link text-dark active" data-toggle="tab" href="#siteplan" role="tab">SITE PLAN</a>
-                            </li>
-
-                            <li class="nav-item col-md-4 p-0 tab-nav">
-                                <a class="nav-link text-dark" data-toggle="tab" href="#floorplan" role="tab" id="tabFloor">FLOOR PLAN</a>
-                            </li>
-
-                            <li class="nav-item col-md-4 p-0 tab-nav ">
-                                <a class="nav-link text-dark" data-toggle="tab" href="#unitplan" role="tab" id="tabUnit">UNIT PLAN</a>
-                            </li>
-                        </ul>
-
-                        <!-- Tab panes -->
-                        <div class="tab-content" style="border-bottom: none; border-left: none; border-right: none;">
-                            <!-- - -->
-                            <div class="tab-pane fade show active" id="siteplan" role="tabpanel">
-                                <div class="p-t-25">
-                                    <div class="container">
-                                        <!-- Title section -->
-                                        <div class="row d-none d-md-block">
-                                            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                                                <img src="{{ asset('images/paulmarc/lanes/Paul Lane (Site Plan)-01.jpg') }}" height="auto" width="100%" alt="header"/>
-                                            </div>
-                                        </div>
-                                        <div class="row d-block d-md-none">
-                                            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                                                <img src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-SitePlanLast.jpg') }}" height="150%" width="100%" alt="header"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- - -->
-                            <div class="tab-pane fade" id="floorplan" role="tabpanel">
-                                <div class="p-rl-30 p-t-15 p-b-35">
-                                    <div class="container">
-                                        <!-- Title section -->
-                                        <div class="row d-none d-md-block">
-                                            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                                                <img src="{{ asset('images/paulmarc/lanes/Paul Lane Floor Plan-02.jpg') }}" height="auto" width="100%" alt="header"/>
-                                            </div>
-                                        </div>
-
-                                        <!-- Title section -->
-                                        <div class="row d-block d-md-none">
-                                            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                                                <img src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-47.jpg') }}" height="auto" width="100%" alt="header"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- - -->
-                            <div class="tab-pane" id="unitplan" role="tabpanel">
-                                <div class="row d-none d-md-block">
-                                    <div class="col-12 pt-4">
-                                        <div class="unit-slider">
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/Paul Lane (Unit Plan)-03.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/Paul Lane (Unit Plan)-04.jpg') }}" height="400"/></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Mobile -->
-                                <div class="row d-block d-md-none mx-2">
-                                    <div class="col-12 pt-4">
-                                        <div class="unit-slider">
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-48.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-49.jpg') }}"/></div>
-                                        </div>
-                                    </div>
-                                </div>
-                        </div>
-                        </div>
+                <div class="col-12">
+                    <div class="lanes-slider">
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/paul lane-plan-14.jpg') }}" /></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/paul lane-plan-15.jpg') }}" /></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/paul lane-plan-16.jpg') }}" /></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-0 p-t-0 p-b-20">
+{{--    <section class="bg-0 p-t-0 p-b-10">--}}
+{{--        <div class="container">--}}
+{{--            <!-- Title section -->--}}
+{{--            <div class="row">--}}
+{{--                <div class="p-b-50 col-md-12 col-sm-12 col-xs-12 col-lg-12">--}}
+{{--                    <!-- Tab02 -->--}}
+{{--                    <div class=" p-t-20 text-center">--}}
+{{--                        <!-- Nav tabs -->--}}
+{{--                        <ul class="nav nav-tabs" role="tablist">--}}
+{{--                            <li class="nav-item col-md-4 p-0 tab-nav">--}}
+{{--                                <a class="nav-link text-dark active" data-toggle="tab" href="#siteplan" role="tab">SITE PLAN</a>--}}
+{{--                            </li>--}}
+
+{{--                            <li class="nav-item col-md-4 p-0 tab-nav">--}}
+{{--                                <a class="nav-link text-dark" data-toggle="tab" href="#floorplan" role="tab" id="tabFloor">FLOOR PLAN</a>--}}
+{{--                            </li>--}}
+
+{{--                            <li class="nav-item col-md-4 p-0 tab-nav ">--}}
+{{--                                <a class="nav-link text-dark" data-toggle="tab" href="#unitplan" role="tab" id="tabUnit">UNIT PLAN</a>--}}
+{{--                            </li>--}}
+{{--                        </ul>--}}
+
+{{--                        <!-- Tab panes -->--}}
+{{--                        <div class="tab-content" style="border-bottom: none; border-left: none; border-right: none;">--}}
+{{--                            <!-- - -->--}}
+{{--                            <div class="tab-pane fade show active" id="siteplan" role="tabpanel">--}}
+{{--                                <div class="p-t-25">--}}
+{{--                                    <div class="container">--}}
+{{--                                        <!-- Title section -->--}}
+{{--                                        <div class="row d-none d-md-block">--}}
+{{--                                            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">--}}
+{{--                                                <img src="{{ asset('images/paulmarc/lanes/Paul Lane (Site Plan)-01.jpg') }}" height="auto" width="100%" alt="header"/>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="row d-block d-md-none">--}}
+{{--                                            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">--}}
+{{--                                                <img src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-SitePlanLast.jpg') }}" height="150%" width="100%" alt="header"/>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+
+{{--                            <!-- - -->--}}
+{{--                            <div class="tab-pane fade" id="floorplan" role="tabpanel">--}}
+{{--                                <div class="p-rl-30 p-t-15 p-b-35">--}}
+{{--                                    <div class="container">--}}
+{{--                                        <!-- Title section -->--}}
+{{--                                        <div class="row d-none d-md-block">--}}
+{{--                                            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">--}}
+{{--                                                <img src="{{ asset('images/paulmarc/lanes/Paul Lane Floor Plan-02.jpg') }}" height="auto" width="100%" alt="header"/>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+
+{{--                                        <!-- Title section -->--}}
+{{--                                        <div class="row d-block d-md-none">--}}
+{{--                                            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">--}}
+{{--                                                <img src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-47.jpg') }}" height="auto" width="100%" alt="header"/>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+
+{{--                            <!-- - -->--}}
+{{--                            <div class="tab-pane" id="unitplan" role="tabpanel">--}}
+{{--                                <div class="row d-none d-md-block">--}}
+{{--                                    <div class="col-12 pt-4">--}}
+{{--                                        <div class="unit-slider">--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/Paul Lane (Unit Plan)-03.jpg') }}" height="400"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/Paul Lane (Unit Plan)-04.jpg') }}" height="400"/></div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+
+{{--                                <!-- Mobile -->--}}
+{{--                                <div class="row d-block d-md-none mx-2">--}}
+{{--                                    <div class="col-12 pt-4">--}}
+{{--                                        <div class="unit-slider">--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-48.jpg') }}"/></div>--}}
+{{--                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-49.jpg') }}"/></div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                        </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
+
+    <section class="bg-0 pt-5 p-b-20">
         <div class="container">
             <div class="flex-col-c-c">
                 <div class="size-a-2 bg-3" style="width: 100%; height: 1px;"></div>
@@ -212,7 +226,7 @@
         </div>
     </section>
 
-    @include('partials.frontend._back-marc')
+{{--    @include('partials.frontend._back-marc')--}}
 @endsection
 
 @section('styles')
@@ -387,7 +401,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script>
 
-        $(".unit-slider").slick({
+        $(".lanes-slider").slick({
             dots: true,
             infinite: true,
             speed: 300,
