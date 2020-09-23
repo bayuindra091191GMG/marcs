@@ -97,10 +97,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="lanes-slider">
+                    <div class="lanes-slider d-none d-md-block">
                         <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/paul lane-plan-14.jpg') }}" /></div>
                         <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/paul lane-plan-15.jpg') }}" /></div>
                         <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/paul lane-plan-16.jpg') }}" /></div>
+                    </div>
+                    <div class="lanes-slider d-block d-md-none py-5">
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/mobile/paul lanes mobile-01.png') }}" /></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/mobile/paul lanes mobile-02.png') }}" /></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/mobile/paul lanes mobile-02.png') }}" /></div>
                     </div>
                 </div>
             </div>

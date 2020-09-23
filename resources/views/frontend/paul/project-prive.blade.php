@@ -98,7 +98,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="prive-slider">
+                    <div class="prive-slider d-block d-md-none py-5">
+                        <div><img class="mx-auto w-auto" src="{{ asset('images/paulmarc/paul-prive/paul prive mobile-01.png') }}" style="height:100vh;" /></div>
+                        <div><img class="mx-auto w-auto" src="{{ asset('images/paulmarc/paul-prive/paul prive mobile-02.png') }}" style="height:100vh;"/></div>
+                        <div><img class="mx-auto w-auto" src="{{ asset('images/paulmarc/paul-prive/paul prive mobile-03.png') }}" style="height:100vh;"/></div>
+                        <div><img class="mx-auto w-auto" src="{{ asset('images/paulmarc/paul-prive/paul prive mobile-04.png') }}" style="height:100vh;"/></div>
+                        <div><img class="mx-auto w-auto" src="{{ asset('images/paulmarc/paul-prive/paul prive mobile-05.png') }}" style="height:100vh;"/></div>
+                        <div><img class="mx-auto w-auto" src="{{ asset('images/paulmarc/paul-prive/paul prive mobile-06.png') }}" style="height:100vh;"/></div>
+                        <div><img class="mx-auto w-auto" src="{{ asset('images/paulmarc/paul-prive/paul prive mobile-07.png') }}" style="height:100vh;"/></div>
+                        <div><img class="mx-auto w-auto" src="{{ asset('images/paulmarc/paul-prive/paul prive mobile-08.png') }}" style="height:100vh;"/></div>
+                        <div><img class="mx-auto w-auto" src="{{ asset('images/paulmarc/paul-prive/paul prive mobile-09.png') }}" style="height:100vh;"/></div>
+                        <div><img class="mx-auto w-auto" src="{{ asset('images/paulmarc/paul-prive/paul prive mobile-10.png') }}" style="height:100vh;"/></div>
+                        <div><img class="mx-auto w-auto" src="{{ asset('images/paulmarc/paul-prive/paul prive mobile-11.png') }}" style="height:100vh;"/></div>
+                        <div><img class="mx-auto w-auto" src="{{ asset('images/paulmarc/paul-prive/paul prive mobile-12.png') }}" style="height:100vh;"/></div>
+                    </div>
+                    <div class="prive-slider d-none d-md-block">
                         <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-01.jpg') }}" /></div>
                         <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-02.jpg') }}" /></div>
                         <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-03.jpg') }}" /></div>
@@ -112,7 +126,6 @@
                         <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-11.jpg') }}" /></div>
                         <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-12.jpg') }}"/></div>
                         <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/paul-prive/paul prive plan-13.jpg') }}" /></div>
-
                     </div>
                 </div>
             </div>
