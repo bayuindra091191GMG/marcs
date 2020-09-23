@@ -528,6 +528,12 @@
 
 } /* bootstrap hack end */
         @media (max-width: 576px) {
+            .slick-next {
+                right: -16px;
+            }
+            .slick-prev {
+                left: -16px;
+            }
             .header-top-img{
                 min-height: 150px;
             }
