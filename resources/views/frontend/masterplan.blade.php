@@ -55,8 +55,8 @@
             }
 
             .build-img{
-                background-size: 684px 400px;
-                min-height: 400px;
+                /*background-size: 684px 400px;*/
+                min-height: 515px;
             }
 
             .header-img{
@@ -77,13 +77,21 @@
             }
 
             .build-img{
-                height: 440px;
-                background-size:contain;
+                width:100%;
+                height:auto;
+                /*background-size:contain;*/
             }
 
             .header-img{
                 background-size: 100% 100%;
                 min-height: 350px;
+            }
+        }
+
+        @media (min-width: 1900px){
+            .build-img{
+                height: 720px;
+                width: auto;
             }
         }
     </style>
@@ -97,7 +105,7 @@
             <div class="row">
         <div class="col-md-12 size-a-18 bg-img2 respon-3 header-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-35.jpg') }}');"></div>
             </div>
-        </div>        
+        </div>
     </section>
 
 
@@ -128,14 +136,14 @@
         <div class="container">
         <div class="row">
             <div class="col-1"></div>
-            <div class="col-10 bg-img2 respon-3" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-40.jpg') }}'); background-position : left top;"></div>
+            <div class="col-10 bg-img2 respon-3" style="background-image: url('{{ asset('images/marc/masterplan/marcs-masterplan-update.jpg') }}'); background-position : left top;"></div>
             <div class="col-1"></div>
         </div>
         </div>
     </section>
 
     <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30 d-block d-md-none">
-        <div class="container"> 
+        <div class="container">
         <div class="row">
             <div class="col-1"></div>
             <div class="col-10 bg-3" style="width: 100%; height: 2px;"></div>
@@ -184,7 +192,7 @@
                             </a>
                         </div>
         </div> --}}
-        </div>            
+        </div>
     </section>
 
     <!-- Mobile Finish -->
@@ -200,7 +208,7 @@
     <section class="bg-0 flex-wr-s-st m-b-15-sr991 d-none d-md-block">
         <div class="row">
             <div class="col-lg-2"></div>
-            <div class="col-lg-8 size-a-18 bg-img2 respon-3 build-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-40.jpg') }}');"></div>
+            <div class="col-lg-8 size-a-18 bg-img2 respon-3 build-img" style="background-image: url('{{ asset('images/marc/masterplan/marcs-masterplan-update.jpg') }}');"></div>
             <div class="col-lg-2"></div>
         </div>
     </section>
@@ -240,7 +248,7 @@
     </section>
 
     @include('partials.frontend._back-marc')
-    
+
 @endsection
 
 @section('scripts')

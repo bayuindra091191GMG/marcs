@@ -400,17 +400,17 @@
                             </div>
                         </div>
                         <div class="px-1">
-                            <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-5.jpg') }}');
+                            <a href="https://www.glennthehive.com" target="_blank">
+                                <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-5-real.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: center;
                                     background-size: cover;
                                     height: 300px;">
-                                <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
-                                    <span class="t1-s-1 text-white custom-font-2">Glenn Marc</span>
-                                    <hr class="w-25 mx-auto border-white"/>
-                                    <span class="text-white custom-font-1" style="font-size: 10px;">#COMINGSOON</span>
+                                    <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
+                                        <img src="{{ asset('images/marc/home/glenn the hive components - contact-04.png') }}" width="100" class="m-auto">
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -677,17 +677,17 @@
                     </div>
                 </div>
                 <div class="col-md-2 col-6">
-                    <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-5.jpg') }}');
+                    <a href="https://www.glennthehive.com" target="_blank">
+                        <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-5-real.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
                             background-size: cover;
                             height: 480px;">
-                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                            <span class="t1-m-1 text-white custom-font-2">Glenn Marc</span>
-                            <hr class="w-25 mx-auto border-white"/>
-                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
+                            <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                                <img src="{{ asset('images/marc/home/glenn the hive components - contact-04.png') }}" width="160" class="m-auto">
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-1"></div>
             </div>
@@ -695,7 +695,7 @@
     </section>
 
     @include('partials.frontend._back-marc')
-   
+
 @endsection
 @section('scripts')
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
