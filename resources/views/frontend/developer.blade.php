@@ -138,7 +138,7 @@
             <div class="row justify-content-center no-gutters">
                 <div class="col-md-1"></div>
                 <div class="col-md-2 col-6 mb-md-0 mb-3">
-                    <a href="http://brooklynalamsutera.com" target="_blank">
+{{--                    <a href="http://brooklynalamsutera.com" target="_blank">--}}
                         <div class="w-100" style="background-image: url('{{ asset('images/marc/developer/triniti_buildings_web-01.jpg') }}');
                                 background-repeat: no-repeat;
                                 background-position: center;
@@ -150,10 +150,10 @@
                                 <span class="custom-font-1 t1-s-1" style="color: #fff;">BROOKLYN</span>
                             </div>
                         </div>
-                    </a>
+{{--                    </a>--}}
                 </div>
                 <div class="col-md-2 col-6 mb-md-0 mb-3">
-                    <a href="http://springwoodresidence.com" target="_blank">
+{{--                    <a href="http://springwoodresidence.com" target="_blank">--}}
                         <div class="w-100" style="background-image: url('{{ asset('images/marc/developer/triniti_buildings_web-02.jpg') }}');
                                 background-repeat: no-repeat;
                                 background-position: center;
@@ -165,10 +165,10 @@
                                 <span class="custom-font-1 t1-s-1" style="color: #fff;">SPRING WOOD<br/>RESIDENCE</span>
                             </div>
                         </div>
-                    </a>
+{{--                    </a>--}}
                 </div>
                 <div class="col-md-2 col-6 mb-md-0 mb-3">
-                    <a href="http://yukatasuites.com" target="_blank">
+{{--                    <a href="http://yukatasuites.com" target="_blank">--}}
                         <div class="w-100" style="background-image: url('{{ asset('images/marc/developer/triniti_buildings_web-03.jpg') }}');
                                 background-repeat: no-repeat;
                                 background-position: center;
@@ -180,10 +180,10 @@
                                 <span class="custom-font-1 t1-s-1" style="color: #fff;">YUKATA<br/>SUITES</span>
                             </div>
                         </div>
-                    </a>
+{{--                    </a>--}}
                 </div>
                 <div class="col-md-2 col-6 mb-md-0 mb-3">
-                    <a href="http://thesmith.co.id" target="_blank">
+{{--                    <a href="http://thesmith.co.id" target="_blank">--}}
                         <div class="w-100" style="background-image: url('{{ asset('images/marc/developer/triniti_buildings_web-04.jpg') }}');
                                 background-repeat: no-repeat;
                                 background-position: center;
@@ -195,10 +195,10 @@
                                 <span class="custom-font-1 t1-s-1" style="color: #fff;">THE SMITH</span>
                             </div>
                         </div>
-                    </a>
+{{--                    </a>--}}
                 </div>
                 <div class="col-md-2 col-6">
-                    <a href="http://collinsboulevard.com" target="_blank">
+{{--                    <a href="http://collinsboulevard.com" target="_blank">--}}
                         <div class="w-100" style="background-image: url('{{ asset('images/marc/developer/triniti_buildings_web-05.jpg') }}');
                                 background-repeat: no-repeat;
                                 background-position: center;
@@ -210,7 +210,7 @@
                                 <span class="custom-font-1 t1-s-1" style="color: #fff;">COLLINS<br/>BOULEVARD</span>
                             </div>
                         </div>
-                    </a>
+{{--                    </a>--}}
                 </div>
                 <div class="col-md-1"></div>
             </div>

@@ -14,7 +14,7 @@
     <section class="m-b-25">
 
         <div class="container-fluid p-0">
-            <div class="row justify-content-center">
+            <div class="row no-gutters justify-content-center">
                 <div class="col-12">
                     <div class="w-100" style="background-image: url('{{ asset('images/marc/partners/partners-1.jpg') }}');
                             background-repeat: no-repeat;
@@ -228,7 +228,7 @@
                                 <br/>
                                 <h1 class="t1-m-1 custom-font-2">Raval Kapusta</h1>
                                 <p>Founding Director, OOZN Design</p>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -486,7 +486,7 @@
                                 <br/>
                                 <h1 class="t1-m-1 custom-font-2">Benny Bonardy</h1>
                                 <p>Founder, Ben & Wyatt Branding House</p><br/><br/>
-                                
+
                             </div>
                         </div>
                     </div>

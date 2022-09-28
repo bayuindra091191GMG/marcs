@@ -44,7 +44,8 @@
             <!-- Title section -->
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
-                    <img src="{{ asset('images/paulmarc/lanes/paul-lane-disamping-desc.jpg') }}" height="100%" width="100%" alt="header"/>
+{{--                    <img src="{{ asset('images/paulmarc/lanes/paul-lane-disamping-desc.jpg') }}" height="100%" width="100%" alt="header"/>--}}
+                    <img src="{{ asset('images/paulmarc/lanes/disamping.webp') }}" height="100%" width="100%" alt="header"/>
                 </div>
                 <div class="flex-col-c-c p-b-50 col-md-6 col-lg-6 col-xs-12">
                     <h3 class="t1-s-2 cl-3 txt-center m-b-50 p-t-50 custom-font-2">Paul Marc Shophouse</h3>
@@ -101,11 +102,17 @@
                         <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/paul lane-plan-14.jpg') }}" /></div>
                         <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/paul lane-plan-15.jpg') }}" /></div>
                         <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/paul lane-plan-16.jpg') }}" /></div>
+                        <div><img class="mx-auto w-75" src="{{ asset('images/paulmarc/lanes/paul-lane-standart.png') }}" /></div>
+                        <div><img class="mx-auto w-75" src="{{ asset('images/paulmarc/lanes/paul-lane-middle.png') }}" /></div>
+                        <div><img class="mx-auto w-75" src="{{ asset('images/paulmarc/lanes/paul-lane-corner.png') }}" /></div>
                     </div>
                     <div class="lanes-slider d-block d-md-none py-5">
                         <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/mobile/paul lanes mobile-01.png') }}" /></div>
                         <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/mobile/paul lanes mobile-02.png') }}" /></div>
                         <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/mobile/paul lanes mobile-02.png') }}" /></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/paul-lane-standart.png') }}" /></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/paul-lane-middle.png') }}" /></div>
+                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/paul-lane-corner.png') }}" /></div>
                     </div>
                 </div>
             </div>
@@ -207,7 +214,7 @@
     <section class="bg-0 pt-5 p-b-20">
         <div class="container">
             <div class="flex-col-c-c">
-                <div class="size-a-2 bg-3" style="width: 100%; height: 1px;"></div>
+                <div class="size-a-2 bg-3" style="width: 75%; height: 1px;"></div>
             </div>
         </div>
     </section>
@@ -215,9 +222,24 @@
     <section class="bg-0 p-t-0 p-b-20">
         <div class="container">
             <!-- Title section -->
+            <div class="row pb-5">
+                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 text-center">
+{{--                    <img src="{{ asset('images/paulmarc/lanes/Paul-lane-dibawah-plans.jpg') }}" height="100%" width="100%" alt="header"/>--}}
+                    <img src="{{ asset('images/paulmarc/lanes/dibawah.webp') }}" class="w-75" alt="header"/>
+                </div>
+            </div>
             <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                    <img src="{{ asset('images/paulmarc/lanes/Paul-lane-dibawah-plans.jpg') }}" height="100%" width="100%" alt="header"/>
+                <div class="col-md-6 pb-3">
+                    <img src="{{ asset('images/paulmarc/lanes/dibawah2.webp') }}" height="100%" width="100%" alt="header"/>
+                </div>
+                <div class="col-md-6 pb-3">
+                    <img src="{{ asset('images/paulmarc/lanes/aerial.webp') }}" height="100%" width="100%" alt="header"/>
+                </div>
+                <div class="col-md-6 pb-3">
+                    <img src="{{ asset('images/paulmarc/lanes/main.webp') }}" height="100%" width="100%" alt="header"/>
+                </div>
+                <div class="col-md-6 pb-3">
+                    <img src="{{ asset('images/paulmarc/lanes/internal.webp') }}" height="100%" width="100%" alt="header"/>
                 </div>
             </div>
         </div>

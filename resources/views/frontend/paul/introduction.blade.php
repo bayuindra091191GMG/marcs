@@ -260,7 +260,7 @@
     {{--</section>--}}
 
     <section class="mb-md-0 mb-4">
-        
+
         <div class="container-fluid py-md-5 py-3 bg-1">
             <!--  -->
             <div class="row justify-content-center mb-4">
@@ -288,7 +288,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 col-4 px-1 px-md-3">
-                    <div class="w-100 img-within-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/Marcs-web-paul-place.jpg') }}');
+                    <div class="w-100 img-within-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/Marcs-web-paul-place-coming.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
                             background-size: cover;">

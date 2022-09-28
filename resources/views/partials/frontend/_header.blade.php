@@ -50,9 +50,9 @@
                                 <a class="custom-font-1 menu-font-style" href="{{ route('frontend.partners') }}" @if(Route::currentRouteName() == 'frontend.partners') style="border-bottom: 1px solid #000; padding-bottom: 10px;" @endif>PARTNERS</a>
                             </li>
 
-                            <li>
-                                <a class="custom-font-1 menu-font-style" href="{{ route('frontend.contact_us') }}" style="padding-right: 20px !important;" @if(Route::currentRouteName() == 'frontend.contact_us') style="border-bottom: 1px solid #000; padding-bottom: 10px;" @endif>CONTACT</a>
-                            </li>
+{{--                            <li>--}}
+{{--                                <a class="custom-font-1 menu-font-style" href="{{ route('frontend.contact_us') }}" style="padding-right: 20px !important;" @if(Route::currentRouteName() == 'frontend.contact_us') style="border-bottom: 1px solid #000; padding-bottom: 10px;" @endif>CONTACT</a>--}}
+{{--                            </li>--}}
                         </ul>
                     </div>
                 </div>
@@ -110,9 +110,9 @@
                                 <a class="custom-font-1 menu-font-style" href="{{ route('frontend.partners') }}" @if(Route::currentRouteName() == 'frontend.partners') style="border-bottom: 1px solid #000; padding-bottom: 10px;" @endif >PARTNERS</a>
                             </li>
 
-                            <li>
-                                <a class="custom-font-1 menu-font-style" href="{{ route('frontend.contact_us') }}" @if(Route::currentRouteName() == 'frontend.contact_us') style="border-bottom: 1px solid #000; padding-bottom: 10px; padding-right: 20px !important;" @endif >CONTACT</a>
-                            </li>
+{{--                            <li>--}}
+{{--                                <a class="custom-font-1 menu-font-style" href="{{ route('frontend.contact_us') }}" @if(Route::currentRouteName() == 'frontend.contact_us') style="border-bottom: 1px solid #000; padding-bottom: 10px; padding-right: 20px !important;" @endif >CONTACT</a>--}}
+{{--                            </li>--}}
                         </ul>
                     </div>
                 </div>
@@ -225,10 +225,52 @@
                     <a class="custom-font-1 text-white" href="{{ route('frontend.partners') }}">PARTNERS</a>
                 </li>
 
-                <li>
-                    <a class="custom-font-1 text-white" href="{{ route('frontend.contact_us') }}">CONTACT</a>
-                </li>
+{{--                <li>--}}
+{{--                    <a class="custom-font-1 text-white" href="{{ route('frontend.contact_us') }}">CONTACT</a>--}}
+{{--                </li>--}}
             </ul>
         </div>
     </nav>
+    <div>
+        {{--        https://wa.me/+6281295666977--}}
+        <a href="https://wa.me/+6285345289988"  id="wa-button" title="Need help?" data-toggle="tooltip" data-placement="top"
+           target="_blank" class="float">
+            <img src="{{ asset('images/marc/wa-logo-thumb.webp') }}" alt="whatsapp button" title="Chat with us." class="fa my-float">
+
+        </a>
+    </div>
 </header>
+
+
+    <style>
+        .float{
+            position:fixed;
+            width:50px;
+            height:50px;
+            bottom:40px;
+            right:30px;
+            /*background-color:#38b91e;*/
+            color:#000;
+            border-radius:50px;
+            text-align:center;
+            /*box-shadow: 2px 2px 3px #999;*/
+            z-index: 99999998;
+        }
+
+        .my-float{
+            margin-top: -100px;
+            width: 65px;
+        }
+        .wa-wrapper {
+            height: 100%;
+        }
+    </style>
+<script>
+    $(function () {
+        $('.wa-img').load(function () {
+            var $img = $(this);
+            $img.attr('max-width', $img.width()).attr('max-height', $img.height());
+        });
+    });
+</script>
+

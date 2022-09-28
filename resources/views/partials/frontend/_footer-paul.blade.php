@@ -29,17 +29,18 @@
                 <div class="col-sm-8 col-md-5 col-lg-3 p-b-20">
                     <div class="size-h-1 flex-s-e m-b-18">
                         <h4 class="t1-m-3  cl-0">
-                            <span class="custom-font-2" style="font-size: 20px;">Marketing Office</span>
+                            <span class="custom-font-2" style="font-size: 20px;">Living Gallery</span>
                         </h4>
                     </div>
 
                     <ul>
                         <li class="flex-wr-s-s t1-s-2 cl-13 p-b-9">
                             <span class="size-w-4">
-                                Komp. Ruko Batamas Blok A No. 1<br/>
-                                Pasir Putih - Batam Centre<br/>
-                                (+62) 812 7561 9998
-                            </span>
+                                        Grand Batam Mall - 2nd Floor<br/>
+                                    Jl. Pembangunan, Batu Selicin,<br/>
+                                    Kec. Lubuk Baja, Kota Batam,<br/>
+                                    Kepulauan Riau 29444
+                                    </span>
                         </li>
                     </ul>
                 </div>
@@ -54,9 +55,10 @@
                     <ul>
                         <li class="flex-wr-s-s t1-s-2 cl-13 p-b-9">
                             <span class="size-w-4">
-                                Brooklyn Premium Office no. 1-3<br/>
-                                Jl. Sutera Boulevard Kav. 22-26<br/>
-                                Alam Sutera - Tangerang
+                                District 8 SCBD, Prosperity Tower,<br/>
+                                Lantai 18A/J, Jl. Senopati Raya, <br/>
+                                Senayan, Jakarta Selatan,<br/>
+                                Indonesia
                             </span>
                         </li>
                     </ul>

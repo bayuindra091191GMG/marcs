@@ -208,7 +208,7 @@
     <section class="bg-0 flex-wr-s-st m-b-15-sr991 d-none d-md-block">
         <div class="row">
             <div class="col-lg-2"></div>
-            <div class="col-lg-8 size-a-18 bg-img2 respon-3 build-img" style="background-image: url('{{ asset('images/marc/masterplan/marcs-masterplan-update.jpg') }}');"></div>
+            <div class="col-lg-8 size-a-18 bg-img2 respon-3 build-img" style="background-image: url('{{ asset('images/marc/masterplan/masterplan.webp') }}');"></div>
             <div class="col-lg-2"></div>
         </div>
     </section>
@@ -240,9 +240,9 @@
     <section class="bg-0 flex-wr-s-st m-b-15-sr991 d-none d-md-block">
         <div class="container">
         <div class="row">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-8 size-a-18 bg-img2 respon-3 min-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-38.jpg') }}');"></div>
-            <div class="col-lg-2"></div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10 size-a-18 bg-img2 respon-3 min-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-38.jpg') }}');"></div>
+            <div class="col-lg-1"></div>
         </div>
         </div>
     </section>
