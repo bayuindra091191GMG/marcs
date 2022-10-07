@@ -101,7 +101,7 @@
                     <div class="lanes-slider d-none d-md-block">
                         <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/paul lane-plan-14.webp') }}" /></div>
 {{--                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/paul lane-plan-15.jpg') }}" /></div>--}}
-                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/paul lane-plan-16.jpg') }}" /></div>
+{{--                        <div><img class="mx-auto w-100" src="{{ asset('images/paulmarc/lanes/paul lane-plan-16.jpg') }}" /></div>--}}
                         <div><img class="mx-auto w-75" src="{{ asset('images/paulmarc/lanes/paul-lane-standart.png') }}" /></div>
                         <div><img class="mx-auto w-75" src="{{ asset('images/paulmarc/lanes/paul-lane-middle.png') }}" /></div>
                         <div><img class="mx-auto w-75" src="{{ asset('images/paulmarc/lanes/paul-lane-corner.png') }}" /></div>
